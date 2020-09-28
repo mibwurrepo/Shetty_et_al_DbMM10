@@ -1,0 +1,101 @@
+---
+title: "Structure"
+author: "Sudarshan"
+date: "14 augustus 2019"
+output: html_document
+---
+
+
+Data generated include:  
+Three main data were generated.  
+1. Wetlab (optical density, pH, HPLC, GC)     
+2. Amplicon (16S rRNA gene V5-V6 region)    
+3. Metatranscriptomics (mRNA sequecing)    
+
+
+```{r}
+dir.create("01_exploratory")
+dir.create("01_exploratory/data")
+dir.create("01_exploratory/output")
+dir.create("01_exploratory/output/rds")
+dir.create("01_exploratory/output/figs")
+dir.create("01_exploratory/output/tables")
+```
+
+
+```{r}
+
+dir.create("02_wetlab")
+dir.create("02_wetlab/data")
+dir.create("02_wetlab/output")
+dir.create("02_wetlab/output/rds")
+dir.create("02_wetlab/output/figs")
+dir.create("02_wetlab/output/tables")
+
+
+
+```
+
+
+```{r}
+dir.create("03_amplicon")
+dir.create("03_amplicon/data")
+dir.create("03_amplicon/codes")
+dir.create("03_amplicon/output")
+dir.create("03_amplicon/output/rds")
+dir.create("03_amplicon/output/figs")
+dir.create("03_amplicon/output/tables")
+
+```
+
+```{r}
+dir.create("04_metatrans")
+dir.create("04_metatrans/data")
+dir.create("04_metatrans/output")
+dir.create("04_metatrans/output/rds")
+dir.create("04_metatrans/output/figs")
+dir.create("04_metatrans/output/tables")
+```
+
+## Metatranscriptomics  
+
+This section has several subsections. 
+I will  define KEGG based anlaysis as one main section with subsections for pathway analysis, gut metabolic modules analysis, etc.
+
+```{r}
+
+# I will  define KEGG based anlaysis as one main section with subsections for pathway analysis, gut metabolic modules analysis, etc.
+dir.create("04_metatrans/05_kegg_analysis")
+dir.create("04_metatrans/05_kegg_analysis/kegg_brite")
+dir.create("04_metatrans/05_kegg_analysis/codes")
+dir.create("04_metatrans/05_kegg_analysis/data")
+dir.create("04_metatrans/05_kegg_analysis/tables")
+dir.create("04_metatrans/05_kegg_analysis/figs")
+dir.create("04_metatrans/05_kegg_analysis/rds")
+dir.create("04_metatrans/05_kegg_analysis/01_output")
+
+
+dir.create("04_metatrans/05_kegg_analysis/02_pathway_anlaysis")
+dir.create("04_metatrans/05_kegg_analysis/02_pathway_anlaysis/tables")
+dir.create("04_metatrans/05_kegg_analysis/02_pathway_anlaysis/figs")
+
+dir.create("04_metatrans/05_kegg_analysis/03_gmm_anlaysis")
+dir.create("04_metatrans/05_kegg_analysis/03_gmm_anlaysis/figs")
+dir.create("04_metatrans/05_kegg_analysis/03_gmm_anlaysis/tables")
+dir.create("04_metatrans/05_kegg_analysis/03_gmm_anlaysis/data")
+
+dir.create("04_metatrans/05_kegg_analysis/04_reveco_anlaysis")
+dir.create("04_metatrans/05_kegg_analysis/04_reveco_anlaysis/data")
+dir.create("04_metatrans/05_kegg_analysis/04_reveco_anlaysis/output")
+dir.create("04_metatrans/05_kegg_analysis/04_reveco_anlaysis/output/rds")
+dir.create("04_metatrans/05_kegg_analysis/04_reveco_anlaysis/output/tables")
+dir.create("04_metatrans/05_kegg_analysis/04_reveco_anlaysis/output/figs")
+
+dir.create("04_metatrans/06_species_composition")
+#dir.create("04_metatrans/06_species_composition")
+dir.create("04_metatrans/06_species_composition/output")
+
+
+```
+
+
